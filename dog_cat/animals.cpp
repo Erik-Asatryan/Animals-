@@ -13,6 +13,9 @@ public:
 };
 
 class Dog:public Animal{
+    
+    // Քանի որ Animal-ի բոլոր ժառանգները ունեն ներքոնշյալ փոփոխականները
+    // ճիշտ կլիներ նրանց հայտարարել Animal֊ում, որպես protected փոփոխականներ
 private:
     std::string m_color;
     std::string m_breed;
